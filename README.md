@@ -19,13 +19,18 @@
 
 ## 安装方法
 
-将 `SKILL.md` 放入 Claude Code 的 skills 目录：
+**方式一：让 AI 帮你装**
+
+把 `SKILL.md` 的内容复制，然后对 Claude Code 或其他 AI 工具说：
+
+> "帮我把这个 skill 安装好"
+
+粘贴内容，它会自动处理。
+
+**方式二：手动安装（Claude Code）**
 
 ```bash
-# 创建目录（如果不存在）
 mkdir -p ~/.claude/skills/inner-mirror
-
-# 复制文件
 cp SKILL.md ~/.claude/skills/inner-mirror/
 ```
 
