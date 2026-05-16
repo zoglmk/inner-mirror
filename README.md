@@ -21,17 +21,16 @@
 
 **方式一：让 AI 帮你装**
 
-把 `SKILL.md` 的内容复制，然后对 Claude Code 或其他 AI 工具说：
+把仓库地址发给 Claude Code 或其他 AI 工具，说：
 
-> "帮我把这个 skill 安装好"
+> "帮我安装这个 skill：https://github.com/zoglmk/inner-mirror"
 
-粘贴内容，它会自动处理。
+它会自动下载并安装到正确的目录。
 
-**方式二：手动安装（Claude Code）**
+**方式二：一条命令安装**
 
 ```bash
-mkdir -p ~/.claude/skills/inner-mirror
-cp SKILL.md ~/.claude/skills/inner-mirror/
+git clone https://github.com/zoglmk/inner-mirror ~/.claude/skills/inner-mirror
 ```
 
 重启 Claude Code 后生效。
